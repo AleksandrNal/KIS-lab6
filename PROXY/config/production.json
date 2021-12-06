@@ -1,0 +1,8 @@
+{
+    "port": 5000,
+    "jwtSecret": "lab3 secretniy secret",
+    "mongoUri" : "mongodb://172.28.1.2:5000/lab6",
+    "baseUri" : "http://172.28.1.3:5000",
+    "authUri" : "http://172.28.1.4:5000",
+    "newsUri" : "http://172.28.1.5:5000"
+}

@@ -1,0 +1,7 @@
+{
+    "port": 5000,
+    "jwtSecret": "lab3 secretniy secret",
+    "mongoUri" : "mongodb+srv://lab3:123@cluster0.mex55.mongodb.net/app?retryWrites=true&w=majority",
+    "baseUri" : "http://localhost:5002",
+    "authUri" : "http://localhost:5002"
+}

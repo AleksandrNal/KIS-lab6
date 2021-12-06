@@ -1,0 +1,52 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+input.yellow-input {
+  border-bottom: 1px solid #fff !important;
+  box-shadow: 0 1px 0 0 #fff !important;
+}
+
+input.yellow-input + label {
+  color: #ffffff !important;
+}
+
+input.yellow-input + label {
+  color: #ffeb3b !important;
+}
+
+input.yellow-input:focus {
+  border-bottom: 1px solid #ffeb3b !important;
+  box-shadow: 0 1px 0 0 #ffeb3b !important;
+}
+
+.new::before {
+  content: "obnovochka";
+  background-color: #ff0000;
+  animation: slideinBefore 8s;
+}
+
+.btn-like {
+  background-color: #b7ced1;
+  border-color: #70c0bc;
+}
+
+.btn-unlike {
+  background-color: #57a386;
+  border-color: #3db6b6;
+}
+
+@keyframes slideinBefore {
+  0% {
+      margin-left: 50%;
+  }
+  50% {
+      margin-left: 15%;
+      opacity: 1;
+      content: "obnovochka";
+  }
+  75% {
+      opacity: 0;
+  }
+  100% {
+      content: none;
+  }
+}
